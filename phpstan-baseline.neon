@@ -2584,31 +2584,6 @@ parameters:
 			path: core/Tracker/GoalManager.php
 
 		-
-			message: "#^PHPDoc tag @param references unknown parameter\\: \\$action$#"
-			count: 1
-			path: core/Tracker/GoalManager.php
-
-		-
-			message: "#^PHPDoc tag @param references unknown parameter\\: \\$visitCustomVariables$#"
-			count: 1
-			path: core/Tracker/GoalManager.php
-
-		-
-			message: "#^PHPDoc tag @param references unknown parameter\\: \\$visitInformation$#"
-			count: 1
-			path: core/Tracker/GoalManager.php
-
-		-
-			message: "#^PHPDoc tag @param references unknown parameter\\: \\$visitor$#"
-			count: 3
-			path: core/Tracker/GoalManager.php
-
-		-
-			message: "#^PHPDoc tag @param references unknown parameter\\: \\$visitorInformation$#"
-			count: 1
-			path: core/Tracker/GoalManager.php
-
-		-
 			message: "#^Parameter \\#2 \\$dimensions of method Piwik\\\\Tracker\\\\GoalManager\\:\\:triggerHookOnDimensions\\(\\) expects array\\<Piwik\\\\Plugin\\\\Dimension\\\\ConversionDimension\\>, array\\<Piwik\\\\Columns\\\\Dimension\\> given\\.$#"
 			count: 3
 			path: core/Tracker/GoalManager.php
