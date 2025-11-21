@@ -137,10 +137,13 @@ body#standalone {
   margin: auto;
   width: min-content;
   max-width: 100%;
-  min-width: 540px;
   height: min-content !important;
 
   pointer-events: auto;
+
+  @media (min-width: 570px) {
+    min-width: 540px;
+  }
 }
 
 .menu {
